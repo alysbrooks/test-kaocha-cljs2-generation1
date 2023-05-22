@@ -1,0 +1,1 @@
+#kaocha/v1{:plugin [:kaocha.plugin/hooks], :tests [{:id :clj-unit} {:id :cljs-unit, :shadow/build-id :browser, :src-paths ["src"], :browse-url "http://localhost:8000", :kaocha.hooks/before [shadow-cljs-hook/before-hook], :type :kaocha.type/cljs2}]}
